@@ -25,6 +25,7 @@ public sealed class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        Debug.Log(_playerList.MyPoints);
         Move();
         UpdateBuffs();
     }
